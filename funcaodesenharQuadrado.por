@@ -8,6 +8,7 @@ programa
 		{
 			para(j=0;j< y; j++)
 			{
+				//se(i>j){ para formar um triângulo retangulo
 				escreva(x," ")
 			}
 			escreva("\n")
