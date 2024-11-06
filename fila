@@ -1,0 +1,33 @@
+Fila de Espera
+Nome do arquivo: fila.c; fila.cpp; fila.cc; fila.java; fila.py
+As casas lotéricas são lugares onde as pessoas frequentam geralmente para pagar suas contas ou realizar
+apostas. Como muitas pessoas acessam tais estabelecimentos e são poucos atendentes, geralmente filas
+são formadas para atender os clientes. Existe uma regra que determina que, se o cliente possui mais que
+65 anos, ele pode acessar a fila preferencial e ser atendido primeiro. Porém, quando existe apenas um
+caixa atendendo, uma lotérica decidiu que, caso um cliente com idade maior ou igual a 65 anos chegue,
+ele pode passar na frente de todos da fila que possuem menos que 65 anos. Crie um programa que, após
+ler a fila atual, diga em que posição as próximas pessoas que chegarão na lotérica deverão assumir.
+A entrada começa com um número N (2 <= N <= 10), que indica a quantidade de pessoas que já estão
+na fila. A seguir, são apresentadas N linhas, que possui a idade das pessoas na fila X (18 <= X <= 100).
+É garantido que todas as pessoas com idade maior ou igual a 65 anos estarão nas primeiras posições da
+fila. Por último, deve-se ler um número D (18 <= D <= 100) que índica a idade da pessoa que chegou
+para ser atendida agora.
+A saída deve ser um número indicando a posição da fila que a pessoa deve entrar. As posições iniciam
+sua contagem a partir do número 1.
+Exemplos
+Entrada Saída
+2
+22 36
+65
+1
+3
+68 70 85
+90
+4
+5
+68 70 85 18 25
+90
+4
+5
+68 70 85 18 25
+25 
